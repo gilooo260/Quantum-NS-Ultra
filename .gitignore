@@ -1,3 +1,19 @@
+
+# --- AJOUTS POUR QUANTUM-NS ULTRA ---
+# Ne pas envoyer les modèles IA entraînés (fichiers lourds)
+*.pth
+*.pt
+*.pkl
+
+# Ne pas envoyer les données de simulation massives
+*.csv
+*.dat
+*.txt
+data/
+
+# Fichiers de résultats de graphiques
+*.html
+*.png
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
