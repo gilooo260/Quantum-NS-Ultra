@@ -1,4 +1,5 @@
 🌀 Quantum-NS Ultra
+![Visualisation du Vortex](vortex.png)
 Simulateur de Dynamique des Fluides Topologiques par Intelligence Artificielle (PINN)
 
 Quantum-NS Ultra est un projet de recherche explorant l'intersection entre la mécanique des fluides, la topologie mathématique et le Deep Learning. Ce système utilise des réseaux de neurones informés par la physique (Physics-Informed Neural Networks) pour prédire la vorticité quantique au sein de filaments de vortex complexes.
