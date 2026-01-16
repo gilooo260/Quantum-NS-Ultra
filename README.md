@@ -31,6 +31,26 @@ Bash
 pip install numpy torch plotly pandas scikit-learn
 Exécution du pipeline
 Pour générer les données, entraîner l'IA et visualiser les résultats :
+## 📖 Guide d'utilisation pas à pas
+
+### Étape 1 : Préparation de l'environnement
+Ouvrez votre terminal ou invite de commande et assurez-vous d'être dans le dossier du projet. Installez les bibliothèques requises :
+`pip install -r requirements.txt`
+
+### Étape 2 : Lancer la simulation
+Exécutez le script principal :
+`python quantum_ultra.py`
+
+### Étape 3 : Interagir avec les résultats
+1. **Console** : Suivez la progression de l'entraînement de l'IA (la "Loss" doit diminuer).
+2. **Navigateur** : Une fenêtre s'ouvrira automatiquement. Vous pouvez :
+   - Faire pivoter le vortex en 3D avec le clic gauche.
+   - Zoomer avec la molette.
+   - Survoler les points pour voir leurs coordonnées.
+
+### Étape 4 : Utiliser vos propres données (Optionnel)
+Si vous avez un fichier de données CFD (format .dat), modifiez la fin du script `quantum_ultra.py` pour appeler la fonction :
+`engine.convert_raw_to_csv("votre_fichier.dat", "resultat.csv")`
 
 Bash
 
